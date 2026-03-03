@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Виртуальные окружения
+venv/
+env/
+.venv/
+include/
+lib/
+lib64/
+[Ss]cripts/
+bin/
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+
+# Файлы сборки и дистрибуции
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Файлы логов и баз данных
+*.log
+*.sqlite3
+*.db
+
+# Файлы сессий и настроек приложения (не должны быть в репозитории)
+translation_session.json
+translation_stats.json
+context_glossary.json
+settings.json
+.epub_translator_openrouter.json
+
+# Выходные файлы (переведенные главы и собранные книги)
+*_translated.html
+*_translated_openrouter.html
+*_openrouter_failed.html
+*.epub
+
+# Специфичные для ОС
+.DS_Store
+Thumbs.db

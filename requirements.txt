@@ -1,0 +1,23 @@
+# Сгенерировано автоматически скриптом build_master.py
+aiohttp
+aiohttp_socks
+beautifulsoup4
+curl_cffi
+emoji
+flask
+fs
+fuzzywuzzy
+jieba
+lxml
+num2words
+pydantic>=2.0.0
+pymorphy3
+PyQt6
+PySocks
+python-Levenshtein
+pytz
+recognizers-text
+recognizers-text-number
+requests
+setuptools<81
+werkzeug
