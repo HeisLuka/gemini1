@@ -271,7 +271,7 @@ class BaseApiHandler:
         )):
             raise e
         
-        if "сannot connect to host" in error_text or "getaddrinfo failed" in error_text:
+        if "cannot connect to host" in error_text or "getaddrinfo failed" in error_text:
             raise NetworkError(f"Нет связи с сервером, или нет интернета.", delay_seconds=60) from e
         
         if isinstance(e, aiohttp.ClientResponseError) and e.status == 429:
